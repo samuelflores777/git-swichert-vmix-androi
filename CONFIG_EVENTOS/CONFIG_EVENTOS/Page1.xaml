@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="CONFIG_EVENTOS.Page1">
+    
+        
+    
+    <ContentPage.Content>
+        <ScrollView>
+            
+
+            <StackLayout Spacing="20" Padding="20">
+            
+            <Entry x:Name="txtcmdidweb" Placeholder="Escribir IDWEB"/>
+
+            <Entry x:Name="txttipro" Placeholder="TITULO DE EVENTO"/>
+
+            <Entry x:Name="txtnombtn01"  Placeholder="NOMBRE BOTÓN 01"/>
+
+            <Entry x:Name="txtapibtn01"  Placeholder="API BOTÓN 01"/>
+
+            <Entry x:Name="txtnombtn02"  Placeholder="NOMBRE BOTÓN 02"/>
+
+            <Entry x:Name="txtapibtn02"  Placeholder="API BOTÓN 02"/>
+
+            <Entry x:Name="txtnombtn03"  Placeholder="NOMBRE BOTÓN 03"/>
+
+            <Entry x:Name="txtapibtn03"  Placeholder="API BOTÓN 03"/>
+
+            <Entry x:Name="txtnombtn04"  Placeholder="NOMBRE BOTÓN 04"/>
+
+            <Entry x:Name="txtapibtn04"  Placeholder="API BOTÓN 04"/>
+
+            <Entry x:Name="txtnombtn05"  Placeholder="NOMBRE BOTÓN 05"/>
+
+            <Entry x:Name="txtapibtn05" Placeholder="API BOTÓN 05"/>
+
+            <Entry x:Name="txtnombtn06" Placeholder="NOMBRE BOTÓN 06"/>
+
+            <Entry x:Name="txtapibtn06" Placeholder="API BOTÓN 06"/>
+
+            <Button Text="VALIDAR DATOS"
+        x:Name="btn01"
+        WidthRequest="50"
+        HeightRequest="50"
+         Clicked="btn01_Clicked"/>
+
+            <Button Text="CONTINUAR"
+        x:Name="btn02"
+        WidthRequest="50"
+        HeightRequest="50"/>
+
+
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="btnGuardar" Text="Guardar" Priority="0" Clicked="btnGuardar_Clicked" Order="Primary"
+                     Icon="guardar.png"/>
+        <ToolbarItem x:Name="btnEliminar" Text="Eliminar" Priority="1" Clicked="btnEliminar_Clicked" Order="Primary"
+                     Icon="eliminar.png"/>
+    </ContentPage.ToolbarItems>
+    
+</ContentPage>

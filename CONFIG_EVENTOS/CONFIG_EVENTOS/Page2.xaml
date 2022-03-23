@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="CONFIG_EVENTOS.Page2">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+            <Label Text="nombre"
+                   x:Name="tipro1"
+               FontSize="25"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"/>
+
+            <Button Text= "nombre"
+                    x:Name="btn01"
+                    WidthRequest="100"
+                    HeightRequest="120"
+                    Clicked="btn01_Clicked"/>
+
+            <Button Text="MASTER AUDIO"
+                    x:Name="btn02"
+                    WidthRequest="100"
+                    HeightRequest="120"
+                    Clicked="btn02_Clicked"/>
+
+            <Button Text="MASTER AUDIO"
+                    x:Name="btn03"
+                    WidthRequest="100"
+                    HeightRequest="120"
+                    Clicked="btn03_Clicked"/>
+
+            <Button Text="MASTER AUDIO"
+                    x:Name="btn04"
+                    WidthRequest="100"
+                    HeightRequest="120"
+                    Clicked="btn04_Clicked"/>
+
+            <Button Text="MASTER AUDIO"
+                    x:Name="btn05"
+                    WidthRequest="100"
+                    HeightRequest="120"
+                    Clicked="btn05_Clicked"/>
+
+            <Button Text="MASTER AUDIO"
+                    x:Name="btn06"
+                    WidthRequest="100"
+                    HeightRequest="120"
+                    Clicked="btn06_Clicked"/>
+
+        </StackLayout>
+            </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
